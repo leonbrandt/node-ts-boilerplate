@@ -11,10 +11,10 @@
 	},
 	"scripts": {
 		"clean": "rm -Rf dist",
-		"lint": "node_modules/.bin/eslint --ext .ts src test",
-		"lint:fix": "node_modules/.bin/eslint --ext .ts src test --fix",
-		"test": "env NODE_ENV=test node_modules/.bin/jest --verbose",
-		"build": "node_modules/.bin/tsc",
+		"lint": "npx eslint --ext .ts src test",
+		"lint:fix": "npx eslint --ext .ts src test --fix",
+		"test": "env NODE_ENV=test npx jest --verbose",
+		"build": "npx tsc",
 		"start": "env NODE_ENV=production node dist/index.js"
 	},
 	"devDependencies": {
