@@ -27,7 +27,6 @@
 		"eslint": "latest",
 		"jest": "latest",
 		"ts-jest": "latest",
-		"tslint": "latest",
 		"typescript": "latest"
 	},
 	"dependencies": {}
