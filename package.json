@@ -17,16 +17,16 @@
 		"start": "env NODE_ENV=production node dist/index.js"
 	},
 	"devDependencies": {
-		"@types/jest": "latest",
-		"@types/node": "latest",
-		"@typescript-eslint/eslint-plugin": "latest",
-		"@typescript-eslint/eslint-plugin-tslint": "latest",
-		"@typescript-eslint/parser": "latest",
-		"@typescript-eslint/typescript-estree": "latest",
-		"eslint": "latest",
-		"jest": "latest",
-		"ts-jest": "latest",
-		"tsc-alias": "latest",
-		"typescript": "latest"
+		"@types/jest": "0.0.0",
+		"@types/node": "0.0.0",
+		"@typescript-eslint/eslint-plugin": "0.0.0",
+		"@typescript-eslint/eslint-plugin-tslint": "0.0.0",
+		"@typescript-eslint/parser": "0.0.0",
+		"@typescript-eslint/typescript-estree": "0.0.0",
+		"eslint": "0.0.0",
+		"jest": "0.0.0",
+		"ts-jest": "0.0.0",
+		"tsc-alias": "0.0.0",
+		"typescript": "0.0.0"
 	}
 }
