@@ -1,5 +1,9 @@
 {
 	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@infrastructure/*": ["src/infrastructure/*"]
+		},
 		"outDir": "./dist/",
 		"module": "commonjs",
 		"target": "esnext",
