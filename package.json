@@ -10,7 +10,6 @@
 		"url": "https://github.com/leonbrandt/node-ts-boilerplate.git"
 	},
 	"scripts": {
-		"clean": "rm -Rf dist",
 		"lint": "npx eslint --ext .ts src test",
 		"lint:fix": "npx eslint --ext .ts src test --fix",
 		"test": "env NODE_ENV=test npx jest --verbose",
