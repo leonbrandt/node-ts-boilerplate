@@ -1,6 +1,7 @@
 FROM node:lts-slim
 WORKDIR /usr/app
+COPY package*.json .
+RUN npm install --production
 COPY . .
-RUN npm install
-RUN npm run clean && npm run build
+RUN npm run build
 CMD ["npm", "start"]
