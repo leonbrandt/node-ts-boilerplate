@@ -13,7 +13,7 @@
 		"lint": "npx eslint --ext .ts src test",
 		"lint:fix": "npx eslint --ext .ts src test --fix",
 		"test": "env NODE_ENV=test npx jest --verbose",
-		"build": "npx tsc",
+		"build": "npx tsc && npx tsc-alias",
 		"start": "env NODE_ENV=production node dist/index.js"
 	},
 	"devDependencies": {
@@ -26,7 +26,7 @@
 		"eslint": "latest",
 		"jest": "latest",
 		"ts-jest": "latest",
+		"tsc-alias": "latest",
 		"typescript": "latest"
-	},
-	"dependencies": {}
+	}
 }
