@@ -31,6 +31,7 @@
 	},
 	"dependencies": {
 		"awilix": "0.0.0",
+		"dotenv": "0.0.0",
 		"winston": "0.0.0"
 	}
 }
